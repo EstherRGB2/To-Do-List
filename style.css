@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+h1 {
+  margin: 10;
+  font-family: 'Arial heavy', Helvetica, sans-serif;
+  font-style: bold;
+  float: center;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color:black;
+  color: rgb(243, 245, 248);
+}
+
+h2 {
+  margin: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  float: center;
+  display: block;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color:#ddd;
+  color: rgb(243, 245, 248);
+}
+
+.button {
+  margin: 10%;
+  font-family: 'Arial heavy', Helvetica, sans-serif;
+  font-style: bold;
+  font-size: large;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 3% 10%;
+  text-decoration: none;
+  background-color:black;
+  color: rgb(243, 245, 248);
+}

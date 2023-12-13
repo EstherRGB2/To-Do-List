@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <script src="./index.js"></script>
+  <h1>My To Do List</h1>
+    <form>
+      <ul>
+        <li> <input type="text" name="first" value="" placeholder="Describe your task here...">
+          <span><input type="checkbox" name="Task 1" value="Task 1"></span>
+        </li>
+        <li><input type="text" name="second" value="" placeholder="Describe your task here....">
+          <span><input type="checkbox" name="Task 2" value="Task 2" checked></span>
+        </li>
+        <li><input type="text" name="third" value="" placeholder="Describe your task here....">
+          <span><input type="checkbox" name="Task 3" value="Task 3"></span>
+        </li>
+        <script>
+    function addItem(){
+        var li = document.createElement("LI");
+        var input = document.getElementById("add");
+        li.innerHTML = input.value;
+        input.value = "";
+
+        document.getElementById("faves").appendChild(li);
+    }
+</script>
+
+<input class="button" type="button" id="btnAdd" value="Add" onclick="addItem()">
+      </ul>
+    </form>
+
+</body>
+</html>
